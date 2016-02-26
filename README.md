@@ -9,7 +9,7 @@ ssh -i ~/location_of_private_key grader@52.36.207.14 -p 2200
 ``
 
 ### Url of the web application
-The item-cata log project from  https://github.com/ajack13/item-catalog is hosted on the server  (Minor changes have been made to the code)
+The item-catalog project from  https://github.com/ajack13/item-catalog is hosted on the server  (Minor changes have been made to the code)
 
 Please access the application by visiting the link given below
 
@@ -74,7 +74,7 @@ Postgresql database has been installed and application data is stored in databas
     REVOKE ALL ON SCHEMA public FROM public;
     GRANT ALL ON SCHEMA public TO catalog;
  
-The application is hosted on port 80 the apache config
+The application is hosted on port 80 the apache config is as below
 
 
         <VirtualHost *:80>
